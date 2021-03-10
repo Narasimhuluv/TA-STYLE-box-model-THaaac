@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------------------------reset css----------------------- */
+body{
+    /* background-color: rgb(45,48,64); */
+    color: white;
+}
+header{
+    background-color: rgb(45,48,64);
+    width: 1500px;
+    margin: auto;
+    padding-bottom: 135px;
+}
+header h2{
+    font-size: 55px;
+    text-align: center;
+    color: white;
+}
+
+header nav{
+    margin-top: 20px;
+    text-align: center;
+}
+
+header nav a{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+/* ------------------------- */
+section{
+    background-color: rgb(45,48,64);
+    width: 1500px;
+    margin: auto;
+}
+section .article1{
+    width: 1500px;
+    /* border: 1px solid white; */
+    margin: auto;
+    /* margin-top: 150px; */
+    background-color: rgb(45,48,64);
+    padding-bottom: 35px;
+    
+    
+}
+ .heading h1{
+    font-size: 45px;
+    margin-bottom: 40px;
+    margin-left: 105px;
+    
+    
+}
+.heading hr{
+    width: 1300px;
+    margin-bottom: 40px;
+    color: rgba(128, 128, 128, 0);
+    opacity: 0.2;
+}
+
+.heading p{
+    padding-left: 105px;
+    margin-bottom: 60px;
+}
+/* ---------------------------- */
+section .article2{
+    width: 1500px;
+    /* border: 1px solid white; */
+    margin: auto;
+    /* margin-top: 150px; */
+    background-color: rgb(76,92,150);
+    padding-bottom: 35px;
+    
+}
+
+.article2 img{
+    width: 350px;
+    height: 350px;
+    margin-left: 60px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.article2 h3{
+    margin-left: 103px;
+    padding-top: 55px;
+    font-size: 25px;
+    
+}
+
+.article2 hr{
+    width: 1280px;
+    opacity: 0.3;
+}
+.article2 p{
+    margin-left: 105px;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+/* --------------------------------- */
+
+section .article3{
+    width: 1500px;
+    /* border: 1px solid white; */
+    margin: auto;
+    /* margin-top: 150px; */
+    background-color: rgb(69,85,141);
+    padding-bottom: 35px;
+    
+}
+
+.article3 img{
+    width: 350px;
+    height: 350px;
+    margin-left: 60px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.article3 h3{
+    margin-left: 103px;
+    padding-top: 55px;
+    font-size: 25px;
+    
+}
+
+.article3 hr{
+    width: 1280px;
+}
+.article3 p{
+    margin-left: 105px;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+/* ----------------------------- */
+
+
+section .article4{
+    width: 1500px;
+    /* border: 1px solid white; */
+    margin: auto;
+    /* margin-top: 150px; */
+    background-color: rgb(63,78,133);
+    padding-bottom: 35px;
+    
+}
+
+.article4 img{
+    width: 350px;
+    height: 350px;
+    margin-left: 60px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.article4 h3{
+    margin-left: 103px;
+    padding-top: 55px;
+    font-size: 25px;
+    
+}
+
+.article4 hr{
+    width: 1280px;
+}
+.article4 p{
+    margin-left: 105px;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+
+/* ---------------------------- */
+/* -------------footer start------------- */
+
+
+footer{
+    width: 1500px;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(46,49,64);
+    padding-top: 35px;
+}
+
+footer p{
+    margin-left: 105px;
+    font-size: 20px;
+}
