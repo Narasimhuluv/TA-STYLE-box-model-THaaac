@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* -----------------reset css------------------ */
+
+
+/* -------------custome style------------------ */
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 55px;
+    
+}
+
+
+hr{
+    width: 700px;
+    margin-top: 35px;
+}
+
+
+section {
+    width: 700px;
+    margin: auto;
+    margin-top: 45px;
+    /* border: 1px solid black; */
+    
+}
+section h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+section .box1{
+    width: 220px;
+    height: 220px;
+    background-color: crimson;
+    margin: auto;
+    margin-top: 35px;
+    box-sizing: border-box;
+    padding: 20px;
+    
+    
+}
+
+section .box2{
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    
+    
+
+}
+
+section .box3{
+    width: 160px;
+    height: 160px;
+    background-color: skyblue;
+    margin: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+}
+
+section .box4{
+    width: 140px;
+    height: 140px;
+    background-color: rgb(230, 222, 208);
+    box-sizing: border-box;
+    padding: 5px;
+    margin: auto;
+}
+
+/* -----------------exercise 2 boxes------------ */
+
+
+.exercise2{
+    border: 1px solid black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 55px;
+    /* padding: 10px; */
+    
+}
+
+.exercise2 .box{
+    width: 180px;
+    height: 100px;
+    background-color: silver;
+    display: inline-block;
+    margin: auto;
+    margin-left: 13px;
+    /* margin: 15px; */
+}
+
+article p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    word-spacing: 5px;
+    margin: 25px;
+}
+
+/* ------------------article 3 or exercisee------------ */
+
+.exercise3{
+    border: 1px solid black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 55px;
+    /* padding: 10px; */
+    
+}
+
+.exercise3 .box{
+    width: 180px;
+    height: 100px;
+    background-color: silver;
+    display: inline-block;
+    margin: auto;
+    margin-left: 13px;
+
+    /* margin: 15px; */
+}
+
+.exercise3 .third-box{
+    margin-top: 20px;
+}
+
+
+/* -------------exercise4------------- */
+
+.exercise4{
+    border: 1px solid black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    /* padding: 10px; */
+    
+}
+
+.exercise4 .box{
+    width: 180px;
+    height: 100px;
+    background-color: silver;
+    display: inline-block;
+    margin: auto;
+    margin-left: 13px;
+    /* margin: 15px; */
+}
+
