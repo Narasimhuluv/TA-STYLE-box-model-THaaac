@@ -74,7 +74,9 @@ article p{
     margin-bottom: 20px;
     text-align: center;
     margin: auto;
-    padding-top: 25px;
+    /* padding-top: 25px; */
+    box-sizing: content-box;
+    padding: 15px;
 }
 
 em{
